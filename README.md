@@ -51,6 +51,5 @@ python gui_app.py
 |---------|-----------|
 | Derin Öğrenme | TensorFlow / Keras (ResNet50V2) |
 | GUI | Flet (Flutter tabanlı, WinUI3/Fluent Design) |
-| API | FastAPI + Uvicorn |
 | Veri | JSON veritabanı |
 | Görüntü İşleme | Pillow, OpenCV |
