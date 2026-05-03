@@ -10,19 +10,16 @@ Otomobil fotoğraflarından **marka ve model tanıma** yapan, tanımlanan araca 
 
 ```
 Otomobil_Tanitim/
-├── dataset/                    # Eğitim veri seti (5 sınıf, ~1453 görsel)
+├── dataset/                    # Eğitim veri seti (5 sınıf, ~1400 görsel)
 │   ├── fiat_egea_2021_2026/
 │   ├── hyundai_i20_2023_2026/
 │   ├── renault_clio_2023_2026/
 │   ├── renault_megane_2021_2026/
 │   └── toyota_corolla_2022_2026/
 ├── data/
-│   └── car_database.json       # Kapsamlı araç veritabanı (JSON)
+│   └── car_database.json       # Araç veritabanı (JSON)
 ├── models/                     # Eğitilmiş model çıktıları
-│   ├── best_model.keras
 │   └── class_indices.json
-├── outputs/
-│   └── training_history.png    # Eğitim grafikleri
 ├── train_model.py              # CNN eğitim scripti (ResNet50V2)
 ├── predictor.py                # Tahmin sınıfı
 ├── gui_app.py                  # Flet GUI (WinUI3/Fluent Design)
@@ -50,7 +47,7 @@ python gui_app.py
 
 ## 🛠️ Kullanılan Kütüphaneler
 
-| Bileşen | Teknoloji |
+| Bileşen | Kütüphane |
 |---------|-----------|
 | Derin Öğrenme | TensorFlow / Keras (ResNet50V2) |
 | GUI | Flet (Flutter tabanlı, WinUI3/Fluent Design) |
