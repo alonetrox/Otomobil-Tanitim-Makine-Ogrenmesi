@@ -26,7 +26,6 @@ Otomobil_Tanitim/
 ├── train_model.py              # CNN eğitim scripti (ResNet50V2)
 ├── predictor.py                # Tahmin sınıfı
 ├── gui_app.py                  # Flet GUI (WinUI3/Fluent Design)
-├── api_server.py               # FastAPI REST API
 ├── requirements.txt            # Bağımlılıklar
 └── README.md                   # Bu dosya
 ```
