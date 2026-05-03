@@ -1,0 +1,795 @@
+{
+  "fiat_egea_2021_2026": {
+    "marka": "Fiat",
+    "model": "Egea",
+    "uretim_yillari": "2021-2026",
+    "segment": "C-Sedan / Hatchback / Station Wagon",
+    "yolcu_kapasitesi": 5,
+    "guvenlik_puani": "3/5 (Euro NCAP - 2016)",
+    "fiyat_araligi": "850.000 - 1.450.000 TL",
+    "sigorta_grubu": "7-12",
+    "lastik_boyutu": "205/55 R16",
+    "bagaj_hacmi": "510 L (Sedan) / 450 L (HB)",
+    "agirlik": "1.180 - 1.350 kg",
+    "uretim_ulkesi": "Türkiye (Tofaş - Bursa)",
+
+    "motor_secenekleri": [
+      {
+        "motor_adi": "1.4 Fire",
+        "yakit_tipi": "Benzin",
+        "silindir_hacmi": "1368 cc",
+        "beygir": 95,
+        "tork": "127 Nm @ 4500 rpm",
+        "emisyon_sinifi": "Euro 6d",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "5 İleri Manuel",
+            "yakit_tuketimi": {
+              "sehir_ici": "8.2 L/100km",
+              "sehir_disi": "5.4 L/100km",
+              "ortalama": "6.5 L/100km"
+            },
+            "hizlanma_0_100": "13.2 sn",
+            "max_hiz": "180 km/s"
+          }
+        ]
+      },
+      {
+        "motor_adi": "1.0 FireFly Turbo",
+        "yakit_tipi": "Benzin (Turbo)",
+        "silindir_hacmi": "999 cc",
+        "beygir": 120,
+        "tork": "190 Nm @ 1750 rpm",
+        "emisyon_sinifi": "Euro 6d",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "6 İleri Manuel",
+            "yakit_tuketimi": {
+              "sehir_ici": "7.4 L/100km",
+              "sehir_disi": "5.0 L/100km",
+              "ortalama": "5.9 L/100km"
+            },
+            "hizlanma_0_100": "10.8 sn",
+            "max_hiz": "195 km/s"
+          },
+          {
+            "sanziman": "6 İleri DCT (Otomatik)",
+            "yakit_tuketimi": {
+              "sehir_ici": "7.8 L/100km",
+              "sehir_disi": "5.3 L/100km",
+              "ortalama": "6.2 L/100km"
+            },
+            "hizlanma_0_100": "11.2 sn",
+            "max_hiz": "193 km/s"
+          }
+        ]
+      },
+      {
+        "motor_adi": "1.6 MultiJet II",
+        "yakit_tipi": "Dizel",
+        "silindir_hacmi": "1598 cc",
+        "beygir": 130,
+        "tork": "320 Nm @ 1500 rpm",
+        "emisyon_sinifi": "Euro 6d",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "6 İleri Manuel",
+            "yakit_tuketimi": {
+              "sehir_ici": "5.8 L/100km",
+              "sehir_disi": "4.0 L/100km",
+              "ortalama": "4.6 L/100km"
+            },
+            "hizlanma_0_100": "9.8 sn",
+            "max_hiz": "200 km/s"
+          },
+          {
+            "sanziman": "6 İleri DCT (Otomatik)",
+            "yakit_tuketimi": {
+              "sehir_ici": "6.2 L/100km",
+              "sehir_disi": "4.3 L/100km",
+              "ortalama": "5.0 L/100km"
+            },
+            "hizlanma_0_100": "10.2 sn",
+            "max_hiz": "198 km/s"
+          }
+        ]
+      }
+    ],
+
+    "kronik_sorunlar": [
+      {
+        "sorun": "Hız sabitleyici arızası",
+        "detay": "Direksiyon üzerindeki hız sabitleyici kumanda tuşları zamanla tepkisiz kalabiliyor. Kontak sıklaşması sonucu oluşur.",
+        "ciddiyet": "Orta",
+        "cozum": "Kumanda kolu değişimi (~2.000 TL). Kol komple değiştirilmeli."
+      },
+      {
+        "sorun": "Torpido ve kapı trim gıcırtıları",
+        "detay": "Bozuk yolda plastik trim parçalarından sesler gelebiliyor. Özellikle torpido üstü ve B-sütunu kaplama arası.",
+        "ciddiyet": "Düşük",
+        "cozum": "Keçe bant uygulaması veya silikon sprey (~200 TL)."
+      },
+      {
+        "sorun": "DCT şanzıman sarsıntısı",
+        "detay": "Düşük devirlerde ve yavaş trafikte 1-2 vites geçişlerinde hafif sarsıntı hissedilebilir. Kuru kavrama yapısından kaynaklanır.",
+        "ciddiyet": "Orta",
+        "cozum": "Şanzıman yazılım güncellemesi (ücretsiz) veya kavrama seti değişimi (~15.000 TL)."
+      },
+      {
+        "sorun": "Egzoz manifold çatlağı (Dizel)",
+        "detay": "Yüksek kilometreli dizel versiyonlarda egzoz manifoldunda çatlak oluşabilir. Egzoz sesi artar.",
+        "ciddiyet": "Yüksek",
+        "cozum": "Manifold değişimi (~8.000 TL). Erken müdahale edilmezse turbo hasarına yol açabilir."
+      }
+    ],
+
+    "bakim_periyotlari": {
+      "10000_km": {
+        "islemler": ["Motor yağı değişimi (4L)", "Yağ filtresi değişimi", "Genel kontrol ve arıza taraması", "Lastik basıncı kontrolü"],
+        "tahmini_maliyet": "2.500 - 3.500 TL"
+      },
+      "20000_km": {
+        "islemler": ["Motor yağı + yağ filtresi", "Hava filtresi değişimi", "Polen (kabin) filtresi değişimi", "Fren balata kalınlığı kontrolü", "Akü voltaj testi"],
+        "tahmini_maliyet": "4.000 - 5.500 TL"
+      },
+      "40000_km": {
+        "islemler": ["Tüm filtreler (yağ, hava, polen, yakıt)", "Buji değişimi (benzinli)", "Triger seti kontrolü (dizel)", "Fren hidroliği değişimi", "Rot-balans ayarı"],
+        "tahmini_maliyet": "6.000 - 8.500 TL"
+      },
+      "60000_km": {
+        "islemler": ["Triger seti değişimi (dizel)", "Fren disk ve balata kontrolü", "Şanzıman yağı değişimi", "Akü değişimi", "Bujiler + ateşleme bobinleri (benzinli)", "Süspansiyon kontrolü"],
+        "tahmini_maliyet": "10.000 - 15.000 TL"
+      }
+    },
+
+    "ekspertiz_checklist": [
+      "Boya kalınlığı ölçümü (tüm paneller — 100-140 mikron normal)",
+      "Şasi ve taban korozyon kontrolü",
+      "Motor çalışma sesi ve titreşim analizi",
+      "Şanzıman geçişleri (tüm vitesler + geri vites)",
+      "Turbo basınç testi (dizel motorlar)",
+      "Klima gaz basıncı ve soğutma performansı",
+      "Süspansiyon ve amortisör kontrolü",
+      "Fren testi (ABS, ESP çalışması)",
+      "Lastik diş derinliği (min 1.6mm yasal)",
+      "OBD2 arıza kodu taraması",
+      "Far ve aydınlatma sistemi kontrolü",
+      "Cam ve kaporta fitil kontrolü",
+      "Radyatör ve soğutma suyu seviyesi"
+    ]
+  },
+
+  "hyundai_i20_2023_2026": {
+    "marka": "Hyundai",
+    "model": "i20",
+    "uretim_yillari": "2023-2026",
+    "segment": "B-Hatchback",
+    "yolcu_kapasitesi": 5,
+    "guvenlik_puani": "5/5 (Euro NCAP - 2020)",
+    "fiyat_araligi": "780.000 - 1.200.000 TL",
+    "sigorta_grubu": "6-10",
+    "lastik_boyutu": "195/55 R16",
+    "bagaj_hacmi": "352 L",
+    "agirlik": "1.080 - 1.190 kg",
+    "uretim_ulkesi": "Türkiye (Hyundai Assan - Kocaeli)",
+
+    "motor_secenekleri": [
+      {
+        "motor_adi": "1.4 MPI",
+        "yakit_tipi": "Benzin",
+        "silindir_hacmi": "1368 cc",
+        "beygir": 100,
+        "tork": "132 Nm @ 4000 rpm",
+        "emisyon_sinifi": "Euro 6d",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "6 İleri Manuel",
+            "yakit_tuketimi": {
+              "sehir_ici": "7.6 L/100km",
+              "sehir_disi": "5.0 L/100km",
+              "ortalama": "6.0 L/100km"
+            },
+            "hizlanma_0_100": "12.5 sn",
+            "max_hiz": "185 km/s"
+          },
+          {
+            "sanziman": "IVT (Akıllı Sürekli Değişken)",
+            "yakit_tuketimi": {
+              "sehir_ici": "8.0 L/100km",
+              "sehir_disi": "5.2 L/100km",
+              "ortalama": "6.3 L/100km"
+            },
+            "hizlanma_0_100": "13.0 sn",
+            "max_hiz": "183 km/s"
+          }
+        ]
+      },
+      {
+        "motor_adi": "1.0 T-GDI",
+        "yakit_tipi": "Benzin (Turbo)",
+        "silindir_hacmi": "998 cc",
+        "beygir": 100,
+        "tork": "172 Nm @ 1500 rpm",
+        "emisyon_sinifi": "Euro 6d",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "6 İleri Manuel",
+            "yakit_tuketimi": {
+              "sehir_ici": "6.8 L/100km",
+              "sehir_disi": "4.8 L/100km",
+              "ortalama": "5.6 L/100km"
+            },
+            "hizlanma_0_100": "11.0 sn",
+            "max_hiz": "190 km/s"
+          },
+          {
+            "sanziman": "7 İleri DCT (Otomatik)",
+            "yakit_tuketimi": {
+              "sehir_ici": "7.2 L/100km",
+              "sehir_disi": "5.0 L/100km",
+              "ortalama": "5.8 L/100km"
+            },
+            "hizlanma_0_100": "11.4 sn",
+            "max_hiz": "188 km/s"
+          }
+        ]
+      },
+      {
+        "motor_adi": "1.0 T-GDI (Güçlü)",
+        "yakit_tipi": "Benzin (Turbo)",
+        "silindir_hacmi": "998 cc",
+        "beygir": 120,
+        "tork": "200 Nm @ 2000 rpm",
+        "emisyon_sinifi": "Euro 6d",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "7 İleri DCT (Otomatik)",
+            "yakit_tuketimi": {
+              "sehir_ici": "7.0 L/100km",
+              "sehir_disi": "5.1 L/100km",
+              "ortalama": "5.8 L/100km"
+            },
+            "hizlanma_0_100": "9.9 sn",
+            "max_hiz": "196 km/s"
+          }
+        ]
+      }
+    ],
+
+    "kronik_sorunlar": [
+      {
+        "sorun": "Multimedya sistemi donması",
+        "detay": "10.25 inç dokunmatik ekranın zaman zaman donduğu ve yeniden başlatma gerektirdiği raporlanmıştır.",
+        "ciddiyet": "Düşük",
+        "cozum": "Yazılım güncellemesi (yetkili serviste ücretsiz)."
+      },
+      {
+        "sorun": "Çelik jant kenar korozyonu",
+        "detay": "Özellikle tuz atılan yollarda, çelik jant kenarlarında erken korozyon görülebiliyor.",
+        "ciddiyet": "Düşük",
+        "cozum": "Alaşım jant takılması veya koruyucu boya (~1.500 TL)."
+      },
+      {
+        "sorun": "DCT kavrama titreşimi",
+        "detay": "Düşük hızlarda (örn. park manevraları) kavramada hafif titreşim hissedilebilir.",
+        "ciddiyet": "Orta",
+        "cozum": "Yazılım güncellemesi veya kavrama adaptasyonu (yetkili servis)."
+      },
+      {
+        "sorun": "Arka süspansiyon sesleri",
+        "detay": "Bozuk yolda arka süspansiyondan tıkırtı sesleri gelebiliyor. Burç aşınmasından kaynaklanabilir.",
+        "ciddiyet": "Orta",
+        "cozum": "Arka salıncak burcu değişimi (~3.000 TL)."
+      }
+    ],
+
+    "bakim_periyotlari": {
+      "10000_km": {
+        "islemler": ["Motor yağı değişimi", "Yağ filtresi değişimi", "Lastik basıncı ve durum kontrolü", "Genel görsel kontrol"],
+        "tahmini_maliyet": "2.200 - 3.000 TL"
+      },
+      "20000_km": {
+        "islemler": ["Motor yağı + filtre", "Hava filtresi", "Polen filtresi", "Fren sıvısı seviye kontrolü", "Silecek kontrolü"],
+        "tahmini_maliyet": "3.500 - 5.000 TL"
+      },
+      "40000_km": {
+        "islemler": ["Tüm filtreler değişimi", "Buji değişimi", "Fren balata kontrolü", "Akü testi", "Rot-balans"],
+        "tahmini_maliyet": "5.500 - 7.500 TL"
+      },
+      "60000_km": {
+        "islemler": ["Triger zinciri kontrolü", "Fren disk + balata", "Şanzıman yağı (DCT)", "Diferansiyel yağı", "Soğutma sıvısı değişimi", "Süspansiyon komple kontrol"],
+        "tahmini_maliyet": "8.000 - 12.000 TL"
+      }
+    },
+
+    "ekspertiz_checklist": [
+      "Boya kalınlığı ölçümü (tüm paneller — 90-130 mikron normal)",
+      "Şasi kaynak ve darbe kontrolü",
+      "Motor çalışma sesi (soğuk/sıcak start)",
+      "DCT şanzıman geçiş kalitesi",
+      "Turbo basınç testi (T-GDI motorlar)",
+      "Klima ve ısıtma sistemi",
+      "ADAS sensör kalibrasyonu (ön kamera, radar)",
+      "Fren sistemi (ABS, ESC, HSA)",
+      "Lastik ve jant durumu",
+      "OBD2 + Hyundai GDS arıza taraması",
+      "Akü sağlık testi (CCA değeri)",
+      "Bagaj ve stepne kontrolü"
+    ]
+  },
+
+  "renault_clio_2023_2026": {
+    "marka": "Renault",
+    "model": "Clio",
+    "uretim_yillari": "2023-2026",
+    "segment": "B-Hatchback",
+    "yolcu_kapasitesi": 5,
+    "guvenlik_puani": "5/5 (Euro NCAP - 2019)",
+    "fiyat_araligi": "720.000 - 1.150.000 TL",
+    "sigorta_grubu": "5-9",
+    "lastik_boyutu": "195/55 R16",
+    "bagaj_hacmi": "391 L",
+    "agirlik": "1.050 - 1.200 kg",
+    "uretim_ulkesi": "Türkiye (Oyak-Renault - Bursa)",
+
+    "motor_secenekleri": [
+      {
+        "motor_adi": "1.0 SCe",
+        "yakit_tipi": "Benzin",
+        "silindir_hacmi": "999 cc",
+        "beygir": 65,
+        "tork": "95 Nm @ 3500 rpm",
+        "emisyon_sinifi": "Euro 6d",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "5 İleri Manuel",
+            "yakit_tuketimi": {
+              "sehir_ici": "7.0 L/100km",
+              "sehir_disi": "4.8 L/100km",
+              "ortalama": "5.6 L/100km"
+            },
+            "hizlanma_0_100": "16.5 sn",
+            "max_hiz": "160 km/s"
+          }
+        ]
+      },
+      {
+        "motor_adi": "1.0 TCe",
+        "yakit_tipi": "Benzin (Turbo)",
+        "silindir_hacmi": "999 cc",
+        "beygir": 90,
+        "tork": "160 Nm @ 2750 rpm",
+        "emisyon_sinifi": "Euro 6d",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "5 İleri Manuel",
+            "yakit_tuketimi": {
+              "sehir_ici": "6.8 L/100km",
+              "sehir_disi": "4.5 L/100km",
+              "ortalama": "5.4 L/100km"
+            },
+            "hizlanma_0_100": "12.2 sn",
+            "max_hiz": "180 km/s"
+          },
+          {
+            "sanziman": "CVT X-Tronic (Otomatik)",
+            "yakit_tuketimi": {
+              "sehir_ici": "7.2 L/100km",
+              "sehir_disi": "4.8 L/100km",
+              "ortalama": "5.7 L/100km"
+            },
+            "hizlanma_0_100": "12.8 sn",
+            "max_hiz": "178 km/s"
+          }
+        ]
+      },
+      {
+        "motor_adi": "1.0 TCe LPG",
+        "yakit_tipi": "Benzin + LPG",
+        "silindir_hacmi": "999 cc",
+        "beygir": 100,
+        "tork": "170 Nm @ 2000 rpm",
+        "emisyon_sinifi": "Euro 6d",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "6 İleri Manuel",
+            "yakit_tuketimi": {
+              "sehir_ici": "7.5 L/100km (LPG: 9.2 L)",
+              "sehir_disi": "5.0 L/100km (LPG: 6.2 L)",
+              "ortalama": "6.0 L/100km (LPG: 7.4 L)"
+            },
+            "hizlanma_0_100": "11.5 sn",
+            "max_hiz": "188 km/s"
+          }
+        ]
+      }
+    ],
+
+    "kronik_sorunlar": [
+      {
+        "sorun": "Turbo hortum sızıntısı",
+        "detay": "TCe motorlarda turbo hortum bağlantılarında sızıntı olabilir. Güç kaybı ve düdük sesi ile fark edilir.",
+        "ciddiyet": "Orta",
+        "cozum": "Hortum kelepçesi sıkma veya hortum değişimi (~1.500 TL)."
+      },
+      {
+        "sorun": "LPG sistem arıza ışığı",
+        "detay": "LPG versiyonlarında enjektör kalibrasyonu kayabiliyor, motor arıza lambası yanabiliyor.",
+        "ciddiyet": "Orta",
+        "cozum": "LPG ECU yazılım güncellemesi veya enjektör temizliği (~1.000 TL)."
+      },
+      {
+        "sorun": "Arka fren balata aşınması",
+        "detay": "Arka fren balataları öndekilerden daha erken aşınabiliyor (özellikle şehir içi kullanımda).",
+        "ciddiyet": "Düşük",
+        "cozum": "Balata değişimi (~2.000 TL). 30.000 km'de kontrol önerilir."
+      },
+      {
+        "sorun": "Multimedya ekran gecikmesi",
+        "detay": "7 inç Easy Link sisteminde zaman zaman tepki gecikmesi yaşanabiliyor.",
+        "ciddiyet": "Düşük",
+        "cozum": "Yazılım güncelleme (yetkili servis)."
+      }
+    ],
+
+    "bakim_periyotlari": {
+      "10000_km": {
+        "islemler": ["Motor yağı değişimi", "Yağ filtresi", "Lastik kontrolü", "Genel kontrol"],
+        "tahmini_maliyet": "2.000 - 3.000 TL"
+      },
+      "20000_km": {
+        "islemler": ["Motor yağı + filtre", "Hava filtresi", "Polen filtresi", "Fren kontrolü", "Silecek lastikleri"],
+        "tahmini_maliyet": "3.500 - 4.500 TL"
+      },
+      "40000_km": {
+        "islemler": ["Tüm filtreler", "Buji değişimi", "Fren balata kontrolü", "Triger kayış kontrolü", "Rot-balans"],
+        "tahmini_maliyet": "5.000 - 7.000 TL"
+      },
+      "60000_km": {
+        "islemler": ["Triger seti değişimi", "Fren disk + balata seti", "Şanzıman yağı", "Soğutma suyu", "Akü kontrolü", "Güç aktarma organları kontrolü"],
+        "tahmini_maliyet": "8.000 - 11.000 TL"
+      }
+    },
+
+    "ekspertiz_checklist": [
+      "Boya kalınlığı ölçümü (tüm paneller)",
+      "Şasi ve alt gövde kontrolü",
+      "Motor çalışma sesi (özellikle turbo sesi)",
+      "Şanzıman geçişleri ve kavrama kontrolü",
+      "LPG sistemi sızıntı kontrolü (LPG'li modeller)",
+      "Klima ve elektrik sistemi",
+      "Süspansiyon burç ve amortisör kontrolü",
+      "Fren test (ABS/ESC çalışması)",
+      "Lastik diş derinliği ve yaş kontrolü",
+      "Renault CLIP arıza taraması",
+      "Far otomatik yükseklik ayarı",
+      "Cam ve kaporta fitil su sızıntı testi"
+    ]
+  },
+
+  "renault_megane_2021_2026": {
+    "marka": "Renault",
+    "model": "Megane",
+    "uretim_yillari": "2021-2026",
+    "segment": "C-Sedan / Hatchback / Grand Coupe",
+    "yolcu_kapasitesi": 5,
+    "guvenlik_puani": "5/5 (Euro NCAP - 2019)",
+    "fiyat_araligi": "1.050.000 - 1.800.000 TL",
+    "sigorta_grubu": "9-14",
+    "lastik_boyutu": "205/55 R17",
+    "bagaj_hacmi": "508 L (Sedan) / 434 L (HB)",
+    "agirlik": "1.250 - 1.450 kg",
+    "uretim_ulkesi": "Türkiye (Oyak-Renault - Bursa)",
+
+    "motor_secenekleri": [
+      {
+        "motor_adi": "1.3 TCe",
+        "yakit_tipi": "Benzin (Turbo)",
+        "silindir_hacmi": "1332 cc",
+        "beygir": 140,
+        "tork": "260 Nm @ 1750 rpm",
+        "emisyon_sinifi": "Euro 6d-Full",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "6 İleri Manuel",
+            "yakit_tuketimi": {
+              "sehir_ici": "8.0 L/100km",
+              "sehir_disi": "5.2 L/100km",
+              "ortalama": "6.3 L/100km"
+            },
+            "hizlanma_0_100": "9.4 sn",
+            "max_hiz": "210 km/s"
+          },
+          {
+            "sanziman": "7 İleri EDC (Otomatik)",
+            "yakit_tuketimi": {
+              "sehir_ici": "8.4 L/100km",
+              "sehir_disi": "5.5 L/100km",
+              "ortalama": "6.6 L/100km"
+            },
+            "hizlanma_0_100": "9.8 sn",
+            "max_hiz": "208 km/s"
+          }
+        ]
+      },
+      {
+        "motor_adi": "1.5 Blue dCi",
+        "yakit_tipi": "Dizel",
+        "silindir_hacmi": "1461 cc",
+        "beygir": 115,
+        "tork": "260 Nm @ 1750 rpm",
+        "emisyon_sinifi": "Euro 6d-Full",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "6 İleri Manuel",
+            "yakit_tuketimi": {
+              "sehir_ici": "5.5 L/100km",
+              "sehir_disi": "3.8 L/100km",
+              "ortalama": "4.4 L/100km"
+            },
+            "hizlanma_0_100": "11.2 sn",
+            "max_hiz": "195 km/s"
+          },
+          {
+            "sanziman": "7 İleri EDC (Otomatik)",
+            "yakit_tuketimi": {
+              "sehir_ici": "5.8 L/100km",
+              "sehir_disi": "4.0 L/100km",
+              "ortalama": "4.7 L/100km"
+            },
+            "hizlanma_0_100": "11.6 sn",
+            "max_hiz": "193 km/s"
+          }
+        ]
+      },
+      {
+        "motor_adi": "1.6 dCi",
+        "yakit_tipi": "Dizel",
+        "silindir_hacmi": "1598 cc",
+        "beygir": 130,
+        "tork": "320 Nm @ 1750 rpm",
+        "emisyon_sinifi": "Euro 6d",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "6 İleri Manuel",
+            "yakit_tuketimi": {
+              "sehir_ici": "6.0 L/100km",
+              "sehir_disi": "4.2 L/100km",
+              "ortalama": "4.8 L/100km"
+            },
+            "hizlanma_0_100": "9.6 sn",
+            "max_hiz": "205 km/s"
+          },
+          {
+            "sanziman": "7 İleri EDC (Otomatik)",
+            "yakit_tuketimi": {
+              "sehir_ici": "6.4 L/100km",
+              "sehir_disi": "4.5 L/100km",
+              "ortalama": "5.2 L/100km"
+            },
+            "hizlanma_0_100": "10.0 sn",
+            "max_hiz": "203 km/s"
+          }
+        ]
+      }
+    ],
+
+    "kronik_sorunlar": [
+      {
+        "sorun": "EDC şanzıman sorunları",
+        "detay": "7 ileri EDC (çift kavramalı) şanzımanda düşük hızlarda sarsıntı, vites atlama ve titreşim sorunları yaşanabilir.",
+        "ciddiyet": "Yüksek",
+        "cozum": "EDC yazılım güncellemesi (ücretsiz) veya kavrama seti değişimi (~18.000 TL). Mekontronik ünite arızasında ~25.000 TL."
+      },
+      {
+        "sorun": "Enjektör arızası (Dizel)",
+        "detay": "Özellikle 1.5 dCi motorlarda enjektör tıkanması veya sızıntısı olabilir. Motor titreşimi ve güç kaybı belirtileri.",
+        "ciddiyet": "Yüksek",
+        "cozum": "Enjektör temizliği (~2.000 TL/adet) veya değişimi (~5.000 TL/adet)."
+      },
+      {
+        "sorun": "Turbo aktüatör arızası",
+        "detay": "Turbo basınç kontrol valfinin elektroniği zamanla bozulabilir. Motor arıza lambası + güç kısıtlaması.",
+        "ciddiyet": "Orta",
+        "cozum": "Aktüatör değişimi (~6.000 TL). Turbo komple değişim gerekirse ~15.000 TL."
+      },
+      {
+        "sorun": "Far buğulanması",
+        "detay": "LED far gruplarının iç kısmında buğulanma oluşabiliyor. Havalandırma kanalı tasarım sorunu.",
+        "ciddiyet": "Düşük",
+        "cozum": "Far havalandırma kanalı temizliği veya conta değişimi (~800 TL). Garanti kapsamında ücretsiz."
+      },
+      {
+        "sorun": "Direksiyon simidi soyulması",
+        "detay": "Deri kaplı direksiyon simidinin üst kısmında zamanla soyulma/renk değişimi görülebilir.",
+        "ciddiyet": "Düşük",
+        "cozum": "Direksiyon deri kaplama (~2.500 TL) veya komple değişim."
+      }
+    ],
+
+    "bakim_periyotlari": {
+      "10000_km": {
+        "islemler": ["Motor yağı değişimi", "Yağ filtresi", "Genel kontrol", "Dijital servis reseti"],
+        "tahmini_maliyet": "2.800 - 3.800 TL"
+      },
+      "20000_km": {
+        "islemler": ["Motor yağı + filtre", "Hava filtresi", "Polen filtresi", "Fren kontrolü", "Akü testi"],
+        "tahmini_maliyet": "4.500 - 6.000 TL"
+      },
+      "40000_km": {
+        "islemler": ["Tüm filtreler", "Buji değişimi (benzinli)", "Yakıt filtresi (dizel)", "Fren hidroliği", "Rot-balans", "Triger kontrolü"],
+        "tahmini_maliyet": "6.500 - 9.000 TL"
+      },
+      "60000_km": {
+        "islemler": ["Triger seti değişimi", "EDC şanzıman yağı değişimi", "Fren disk + balata", "Soğutma suyu", "V-kayış seti", "Süspansiyon kontrol"],
+        "tahmini_maliyet": "12.000 - 18.000 TL"
+      }
+    },
+
+    "ekspertiz_checklist": [
+      "Boya kalınlığı ölçümü (tüm paneller — 100-150 mikron normal)",
+      "Şasi numarası doğrulama ve darbe kontrolü",
+      "Motor çalışma sesi ve turbo testı",
+      "EDC şanzıman geçiş kalitesi (1-2-3 vites özellikle)",
+      "DPF (Dizel Partikül Filtresi) doluluk oranı",
+      "Klima ve çift bölgeli ısıtma",
+      "ADAS sensör kalibrasyonu (ön kamera, park sensörleri)",
+      "Fren sistemi (ABS, ESC, hill assist)",
+      "Lastik diş derinliği ve yaş",
+      "Renault CLIP tam arıza taraması",
+      "LED far ve DRL çalışması",
+      "Panoramik cam tavan sızdırmazlık testi (varsa)",
+      "Elektrikli el freni çalışması"
+    ]
+  },
+
+  "toyota_corolla_2022_2026": {
+    "marka": "Toyota",
+    "model": "Corolla",
+    "uretim_yillari": "2022-2026",
+    "segment": "C-Sedan / Hatchback / Touring Sports",
+    "yolcu_kapasitesi": 5,
+    "guvenlik_puani": "5/5 (Euro NCAP - 2019)",
+    "fiyat_araligi": "1.200.000 - 1.950.000 TL",
+    "sigorta_grubu": "10-15",
+    "lastik_boyutu": "225/45 R17",
+    "bagaj_hacmi": "471 L (Sedan) / 361 L (HB)",
+    "agirlik": "1.300 - 1.420 kg",
+    "uretim_ulkesi": "Türkiye (Toyota Otomotiv - Sakarya)",
+
+    "motor_secenekleri": [
+      {
+        "motor_adi": "1.8 Hybrid (5. Nesil)",
+        "yakit_tipi": "Hibrit (Benzin + Elektrik)",
+        "silindir_hacmi": "1798 cc",
+        "beygir": 140,
+        "tork": "185 Nm (Kombine)",
+        "emisyon_sinifi": "Euro 6d-Full",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "e-CVT (Sürekli Değişken Otomat)",
+            "yakit_tuketimi": {
+              "sehir_ici": "4.2 L/100km",
+              "sehir_disi": "4.8 L/100km",
+              "ortalama": "4.5 L/100km"
+            },
+            "hizlanma_0_100": "9.2 sn",
+            "max_hiz": "180 km/s"
+          }
+        ]
+      },
+      {
+        "motor_adi": "2.0 Hybrid (5. Nesil)",
+        "yakit_tipi": "Hibrit (Benzin + Elektrik)",
+        "silindir_hacmi": "1987 cc",
+        "beygir": 196,
+        "tork": "206 Nm (Kombine)",
+        "emisyon_sinifi": "Euro 6d-Full",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "e-CVT Direct Shift (Otomatik)",
+            "yakit_tuketimi": {
+              "sehir_ici": "4.8 L/100km",
+              "sehir_disi": "5.2 L/100km",
+              "ortalama": "5.0 L/100km"
+            },
+            "hizlanma_0_100": "7.5 sn",
+            "max_hiz": "210 km/s"
+          }
+        ]
+      },
+      {
+        "motor_adi": "1.6 Valvematic",
+        "yakit_tipi": "Benzin",
+        "silindir_hacmi": "1598 cc",
+        "beygir": 132,
+        "tork": "160 Nm @ 4400 rpm",
+        "emisyon_sinifi": "Euro 6d",
+        "sanziman_secenekleri": [
+          {
+            "sanziman": "6 İleri Manuel",
+            "yakit_tuketimi": {
+              "sehir_ici": "8.5 L/100km",
+              "sehir_disi": "5.5 L/100km",
+              "ortalama": "6.6 L/100km"
+            },
+            "hizlanma_0_100": "10.9 sn",
+            "max_hiz": "200 km/s"
+          },
+          {
+            "sanziman": "CVT Multidrive S (Otomatik)",
+            "yakit_tuketimi": {
+              "sehir_ici": "8.8 L/100km",
+              "sehir_disi": "5.8 L/100km",
+              "ortalama": "6.9 L/100km"
+            },
+            "hizlanma_0_100": "11.3 sn",
+            "max_hiz": "195 km/s"
+          }
+        ]
+      }
+    ],
+
+    "kronik_sorunlar": [
+      {
+        "sorun": "Hybrid batarya performans düşüşü",
+        "detay": "Yüksek kilometreli (200.000+ km) araçlarda NiMH bataryanın kapasitesi %10-15 düşebilir. Yakıt tüketimi hafif artar.",
+        "ciddiyet": "Orta",
+        "cozum": "Batarya hücre değişimi (~20.000 TL) veya komple batarya (~40.000 TL). Toyota 10 yıl / 350.000 km hibrit garanti veriyor."
+      },
+      {
+        "sorun": "CVT uğultu sesi",
+        "detay": "Yokuş çıkışlarında ve ani hızlanmalarda CVT şanzımandan uğultu (rubber-band effect) hissedilebilir. Tasarım gereği.",
+        "ciddiyet": "Düşük",
+        "cozum": "Normal çalışma karakteristiği. Sequential mod (S modu) kullanımı ile azaltılabilir."
+      },
+      {
+        "sorun": "Arka süspansiyon gürültüsü",
+        "detay": "Torsion beam arka süspansiyon yapısında bozuk yolda gürültü artabilir. Bağımsız süspansiyona göre konfor düşük.",
+        "ciddiyet": "Düşük",
+        "cozum": "Tampon lastik değişimi (~1.500 TL). Yapısal bir sorun değildir."
+      },
+      {
+        "sorun": "Fren hissi farklılığı (Rejeneratif)",
+        "detay": "Hibrit modellerde rejeneratif fren sistemi nedeniyle fren pedalı hissi konvansiyonel araçlardan farklıdır. Alışma gerektirir.",
+        "ciddiyet": "Düşük",
+        "cozum": "Normal çalışma özelliği. 1-2 hafta kullanımda alışılır."
+      }
+    ],
+
+    "bakim_periyotlari": {
+      "10000_km": {
+        "islemler": ["Motor yağı değişimi (0W-20 sentetik)", "Yağ filtresi", "Lastik rotasyon", "Hibrit sistem taraması"],
+        "tahmini_maliyet": "3.000 - 4.000 TL"
+      },
+      "20000_km": {
+        "islemler": ["Motor yağı + filtre", "Hava filtresi", "Polen filtresi", "Fren kontrolü", "Hibrit soğutma sıvısı kontrol"],
+        "tahmini_maliyet": "4.500 - 6.000 TL"
+      },
+      "40000_km": {
+        "islemler": ["Tüm filtreler", "Fren hidroliği değişimi", "Buji değişimi (İridyum)", "Rot-balans", "Hibrit inverter soğutma sıvısı"],
+        "tahmini_maliyet": "6.500 - 9.000 TL"
+      },
+      "60000_km": {
+        "islemler": ["Şanzıman yağı (CVT/e-CVT)", "Fren disk + balata seti", "Soğutma suyu (motor + hibrit)", "V-kayış kontrolü", "Egzoz sistemi kontrolü", "Süspansiyon komple kontrol"],
+        "tahmini_maliyet": "10.000 - 14.000 TL"
+      }
+    },
+
+    "ekspertiz_checklist": [
+      "Boya kalınlığı ölçümü (tüm paneller — 100-140 mikron normal)",
+      "Şasi ve alt gövde korozyon kontrolü",
+      "Motor çalışma sesi (elektrik + benzin geçişi)",
+      "Hibrit batarya sağlık raporu (Toyota Techstream)",
+      "e-CVT / CVT şanzıman geçiş testi",
+      "Rejeneratif fren sistem kontrolü",
+      "Toyota Safety Sense kalibrasyon kontrolü (ön kamera, radar)",
+      "Klima (ısı pompası dahil, hibrit)",
+      "Fren sistemi (ABS, VSC, EBD)",
+      "Lastik TPMS sensör kontrolü",
+      "OBD2 + Toyota Techstream arıza taraması",
+      "Hibrit yüksek voltaj kablo izolasyon testi",
+      "Head-Up Display kontrolü (varsa)"
+    ]
+  }
+}
