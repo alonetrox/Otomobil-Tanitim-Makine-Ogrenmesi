@@ -23,13 +23,13 @@
         "emisyon_sinifi": "Euro 6d",
         "sanziman_secenekleri": [
           {
-            "sanziman": "5 İleri Manuel",
+            "sanziman": "6 İleri Manuel",
             "yakit_tuketimi": {
               "sehir_ici": "8.2 L/100km",
               "sehir_disi": "5.4 L/100km",
               "ortalama": "6.5 L/100km"
             },
-            "hizlanma_0_100": "13.2 sn",
+            "hizlanma_0_100": "11.8 sn",
             "max_hiz": "180 km/s"
           }
         ]
