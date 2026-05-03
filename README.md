@@ -44,45 +44,12 @@ python train_model.py
 ```
 > Aşama 1: Feature Extraction (10 epoch) → Aşama 2: Fine-Tuning (20 epoch)
 
-### 3. GUI'yi Çalıştır
+### 3. Programı Çalıştır
 ```bash
 python gui_app.py
 ```
 
-### 4. API Sunucusunu Başlat (Opsiyonel)
-```bash
-python api_server.py
-# veya: uvicorn api_server:app --reload --port 8000
-# Swagger UI: http://localhost:8000/docs
-```
-
-## 🧠 Model Mimarisi
-
-- **Temel Model**: ResNet50V2 (ImageNet ön-eğitimli)
-- **Eğitim**: 2 aşamalı transfer learning
-- **Giriş**: 224×224×3 RGB görüntü
-- **Çıkış**: 5 sınıf (softmax)
-
-## 📡 API Endpoint'leri
-
-| Method | Endpoint | Açıklama |
-|--------|----------|----------|
-| POST | `/api/predict` | Fotoğraf yükle → tahmin al |
-| GET | `/api/cars` | Tüm araçları listele |
-| GET | `/api/cars/{label}` | Araç detayları |
-| GET | `/api/cars/{label}/motors` | Motor seçenekleri |
-| GET | `/api/cars/{label}/motors/{m}/transmissions/{t}` | Motor+şanzıman teknik bilgi |
-| GET | `/api/cars/{label}/issues` | Kronik sorunlar |
-| GET | `/api/cars/{label}/maintenance` | Bakım periyotları |
-
-## 📱 Android Entegrasyon Yol Haritası
-
-1. **API Sunucusunu** VPS veya ngrok ile dışarıya açın
-2. **Android uygulamasında** Retrofit (Kotlin) veya Dio (Flutter) kullanın
-3. Fotoğraf çekin → `POST /api/predict` → Sonuçları gösterin
-4. **(Opsiyonel)** TFLite dönüşümü ile offline mobil tahmin
-
-## 🛠️ Teknoloji Yığını
+## 🛠️ Kullanılan Kütüphaneler
 
 | Bileşen | Teknoloji |
 |---------|-----------|
